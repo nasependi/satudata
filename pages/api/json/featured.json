@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Set Video Playback Speed With Javascript",
+    "description": "Did you come here for something in particular or just general Riker-bashing? And blowing into . . .",
+    "image": "https://images.unsplash.com/photo-1463725876303-ff840e2aa8d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dmlld3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "category": "News",
+    "author": {
+      "name": "Fadlan A",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    "createdAt": "01 July 2022"
+  },
+  {
+    "id": 2,
+    "title": "Design Is The Mix Of Emotions",
+    "description": "Did you come here for something in particular or just general Riker-bashing? And blowing into . . .",
+    "image": "https://images.unsplash.com/photo-1535916707207-35f97e715e1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dmlld3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "category": "Blog",
+    "author": {
+      "name": "Jenny Ordo",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    "createdAt": "23 July 2022"
+  }
+]

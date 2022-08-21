@@ -1,0 +1,132 @@
+import React from 'react'
+
+export default function SideKontak() {
+  return (
+    <>
+      <div className="fixed right-0 z-10 flex h-full items-center justify-end">
+        <div className="grid space-y-2.5">
+          <div className="flex justify-end">
+            <a
+              href="wa.me/06289630157114"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="group flex items-center gap-x-2 rounded-tl-lg rounded-bl-lg bg-blue-500 p-3"
+            >
+              <span className="hidden text-white group-hover:inline">
+                Kontak Whatsapp
+              </span>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="text-white"
+                  width={24}
+                  height={24}
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                  <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                </svg>
+              </span>
+            </a>
+          </div>
+          <div className="flex justify-end">
+            <a
+              href="wa.me/06289630157114"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="group flex items-center gap-x-2 rounded-tl-lg rounded-bl-lg bg-blue-500 p-3"
+            >
+              <span className="hidden text-white group-hover:inline">
+                Kontak Whatsapp
+              </span>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="text-white"
+                  width={24}
+                  height={24}
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                  <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                </svg>
+              </span>
+            </a>
+          </div>
+          <div className="flex justify-end">
+            <a
+              href="wa.me/06289630157114"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="group flex items-center gap-x-2 rounded-tl-lg rounded-bl-lg bg-blue-500 p-3"
+            >
+              <span className="hidden text-white group-hover:inline">
+                Kontak Whatsapp
+              </span>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="text-white"
+                  width={24}
+                  height={24}
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                  <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                </svg>
+              </span>
+            </a>
+          </div>
+          <div className="flex justify-end">
+            <a
+              href="wa.me/06289630157114"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="group flex items-center gap-x-2 rounded-tl-lg rounded-bl-lg bg-blue-500 p-3"
+            >
+              <span className="hidden text-white group-hover:inline">
+                Kontak Whatsapp
+              </span>
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="text-white"
+                  width={24}
+                  height={24}
+                  viewBox="0 0 24 24"
+                  strokeWidth={2}
+                  stroke="currentColor"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                  <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
