@@ -42,17 +42,21 @@ export default function ContentMenus({ menus }) {
             <img src={Vector3.src} alt="" />
           </div>
         </section>
-        <section className="mt-10 flex justify-center">
-          <div className="grid w-full gap-6 lg:w-[65%] lg:grid-cols-3">
+        <section className="mt-14 flex justify-center">
+          <div className="grid w-full gap-6 lg:w-[60%] lg:grid-cols-3">
             {menus.map((m, key) => (
               <div
                 key={key}
                 className="w-full space-y-3 rounded-2xl bg-white py-5 shadow"
               >
                 <div className="flex justify-center">
-                  <img src={m.img} className="h-16 w-16" alt="" />
+                  <img
+                    src={m.img}
+                    className="mt-3 h-16 w-16 transition duration-700 hover:-translate-y-2"
+                    alt=""
+                  />
                 </div>
-                <div className="mx-auto block text-center font-semibold text-slate-600">
+                <div className="mx-auto block text-center font-bold text-slate-600">
                   {m.title}
                 </div>
               </div>

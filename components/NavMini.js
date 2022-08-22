@@ -3,9 +3,9 @@ import React from "react";
 export default function NavMini() {
   return (
     <>
-      <nav className="hidden h-10 w-full items-center bg-blue-500 lg:flex">
+      <nav className="hidden h-10 w-full items-center bg-gradient-to-r from-cyan-500 to-blue-500 lg:flex">
         <div className="container flex w-full items-center justify-between">
-          <div className="font-semibold text-white">Bogor Health</div>
+          <div className="font-semibold text-white">.: satu DATA KESEHATAN</div>
           <div className="flex gap-x-2 text-sm">
             <div className="flex items-center gap-x-2 tracking-tighter text-white">
               |
@@ -23,7 +23,7 @@ export default function NavMini() {
                 />
               </svg>
               <span className="cursor-pointer hover:text-blue-200">
-                (0943) 38479 83468
+                0821-1574-4646
               </span>
             </div>
             <div className="flex items-center gap-x-2 tracking-tighter text-white">
@@ -39,7 +39,7 @@ export default function NavMini() {
                 <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
               </svg>
               <span className="cursor-pointer hover:text-blue-200">
-                nasepependi@gmail.com
+                dinkesgarut1@gmail.com
               </span>
             </div>
             <div className="flex items-center gap-x-2 text-white">

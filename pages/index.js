@@ -5,6 +5,9 @@ import NavMini from "../components/NavMini";
 import ContentMenus from "../components/ContentMenus";
 import FooterMini from "../components/FooterMini";
 import Head from "next/head";
+import Gambar from "../public/assets/img/strategy.png";
+import Gambar2 from "../public/assets/img/strategy.png";
+import Gambar3 from "../public/assets/img/strategy.png";
 
 const menus = [
   {
@@ -13,13 +16,13 @@ const menus = [
     href: "/",
   },
   {
-    img: "https://dinkes.kotabogor.go.id/assets-publik/img/icon1.svg",
-    title: "Website Dinas Kesehatan",
+    img: "https://dinkes.kotabogor.go.id/assets-publik/img/icon9.svg",
+    title: "Sistem Aplikasi E-Planning",
     href: "/",
   },
   {
-    img: "https://dinkes.kotabogor.go.id/assets-publik/img/icon1.svg",
-    title: "Website Dinas Kesehatan",
+    img: "https://dinkes.kotabogor.go.id/assets-publik/img/icon2.svg",
+    title: "Sistem Aplikasi Pelaporan Dan Evaluasi",
     href: "/",
   },
 ];
