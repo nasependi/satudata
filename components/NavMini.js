@@ -5,7 +5,7 @@ export default function NavMini() {
     <>
       <nav className="hidden h-10 w-full items-center bg-gradient-to-r from-cyan-500 to-blue-500 lg:flex">
         <div className="container flex w-full items-center justify-between">
-          <div className="font-semibold text-white">.: satu DATA KESEHATAN</div>
+          <div className="font-bold text-white">.: satu DATA KESEHATAN</div>
           <div className="flex gap-x-2 text-sm">
             <div className="flex items-center gap-x-2 tracking-tighter text-white">
               |

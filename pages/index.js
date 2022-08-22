@@ -13,17 +13,17 @@ const menus = [
   {
     img: "https://dinkes.kotabogor.go.id/assets-publik/img/icon1.svg",
     title: "Website Dinas Kesehatan",
-    href: "/",
+    href: "https://dinkes.garutkab.go.id/",
   },
   {
     img: "https://dinkes.kotabogor.go.id/assets-publik/img/icon9.svg",
     title: "Sistem Aplikasi E-Planning",
-    href: "/",
+    href: "https://eplanning.bludpuskesmas.id/login",
   },
   {
     img: "https://dinkes.kotabogor.go.id/assets-publik/img/icon2.svg",
     title: "Sistem Aplikasi Pelaporan Dan Evaluasi",
-    href: "/",
+    href: "https://satudata.dinkesgarut.com/login",
   },
 ];
 export default function index() {
