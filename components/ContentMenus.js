@@ -45,7 +45,10 @@ export default function ContentMenus({ menus }) {
         <section className="mt-14 flex justify-center">
           <div className="grid w-full gap-6 lg:w-[60%] lg:grid-cols-3">
             {menus.map((m, key) => (
-              <div
+              <a
+                href={m.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 key={key}
                 className="w-full space-y-3 rounded-2xl bg-white py-5 shadow"
               >
@@ -59,7 +62,7 @@ export default function ContentMenus({ menus }) {
                 <div className="mx-auto block text-center font-bold text-slate-600">
                   {m.title}
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </section>
