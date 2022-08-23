@@ -5,9 +5,6 @@ import NavMini from "../components/NavMini";
 import ContentMenus from "../components/ContentMenus";
 import FooterMini from "../components/FooterMini";
 import Head from "next/head";
-import Gambar from "../public/assets/img/strategy.png";
-import Gambar2 from "../public/assets/img/strategy.png";
-import Gambar3 from "../public/assets/img/strategy.png";
 
 const menus = [
   {

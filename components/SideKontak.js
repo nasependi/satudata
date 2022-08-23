@@ -48,15 +48,15 @@ export default function SideKontak() {
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-phone-call  text-white"
-                  width="24"
-                  height="24"
+                  className="icon icon-tabler icon-tabler-phone-call text-white"
+                  width={24}
+                  height={24}
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  stroke-width={2}
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                   <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
@@ -79,18 +79,18 @@ export default function SideKontak() {
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-mail text-white"
-                  width="24"
-                  height="24"
+                  className="icon icon-tabler icon-tabler-mail text-white"
+                  width={24}
+                  height={24}
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  stroke-width={2}
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                  <rect x={3} y={5} width={18} height={14} rx={2}></rect>
                   <polyline points="3 7 12 13 21 7"></polyline>
                 </svg>
               </span>
@@ -109,19 +109,19 @@ export default function SideKontak() {
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="icon icon-tabler icon-tabler-ambulance text-white"
-                  width="24"
-                  height="24"
+                  className="icon icon-tabler icon-tabler-ambulance text-white"
+                  width={24}
+                  height={24}
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  stroke-width={2}
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <circle cx="7" cy="17" r="2"></circle>
-                  <circle cx="17" cy="17" r="2"></circle>
+                  <circle cx={7} cy={17} r={2}></circle>
+                  <circle cx={17} cy={17} r={2}></circle>
                   <path d="M5 17h-2v-11a1 1 0 0 1 1 -1h9v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5"></path>
                   <path d="M6 10h4m-2 -2v4"></path>
                 </svg>
