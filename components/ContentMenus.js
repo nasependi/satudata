@@ -2,6 +2,7 @@ import React from "react";
 import Vector from "../public/assets/img/logo-dinkes.png";
 import Vector1 from "../public/assets/img/garut.png";
 import Vector3 from "../public/assets/img/logo satudata.png";
+import Vector4 from "../public/assets/img/20220823_112006.png";
 
 export default function ContentMenus({ menus }) {
   return (
@@ -40,10 +41,11 @@ export default function ContentMenus({ menus }) {
         <section className="flex justify-center py-10">
           <div className="w-52">
             <img src={Vector3.src} alt="" />
+            <img src={Vector4.src} alt="" />
           </div>
         </section>
         <section className="mt-14 flex justify-center">
-          <div className="grid w-full gap-6 lg:w-[60%] lg:grid-cols-3">
+          <div className="grid w-full gap-6 lg:w-[55%] lg:grid-cols-3">
             {menus.map((m, key) => (
               <a
                 href={m.href}
@@ -55,11 +57,11 @@ export default function ContentMenus({ menus }) {
                 <div className="flex justify-center">
                   <img
                     src={m.img}
-                    className="mt-3 h-16 w-16 transition duration-700 hover:-translate-y-2"
+                    className="mt-3 h-14 w-14 transition duration-700 hover:-translate-y-2"
                     alt=""
                   />
                 </div>
-                <div className="mx-auto block text-center font-bold text-slate-600">
+                <div className="mx-auto block text-center text-sm font-bold text-slate-600">
                   {m.title}
                 </div>
               </a>

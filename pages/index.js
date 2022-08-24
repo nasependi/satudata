@@ -38,6 +38,11 @@ export default function index() {
       }}
     >
       <Head>
+        <link
+          rel="icon"
+          href="./public/assets/img/garut.png"
+          type="image/png"
+        />
         <title>Satu Data Kesehatan</title>
       </Head>
       <SideKontak />

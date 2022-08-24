@@ -23,7 +23,7 @@ export default function NavMini() {
                 />
               </svg>
               <span className="cursor-pointer hover:text-blue-200">
-                0821-1574-4646
+                <a href="tel:0821-1574-4646">(0821-1574-4646)</a>
               </span>
             </div>
             <div className="flex items-center gap-x-2 tracking-tighter text-white">
@@ -39,84 +39,110 @@ export default function NavMini() {
                 <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
               </svg>
               <span className="cursor-pointer hover:text-blue-200">
-                dinkesgarut1@gmail.com
+                <a href="mailto:dinkesgarut1@gmail.com">
+                  dinkesgarut1@gmail.com
+                </a>
               </span>
             </div>
             <div className="flex items-center gap-x-2 text-white">
               <div className="flex items-center gap-x-1.5">
                 |
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="cursor-pointer hover:text-blue-200"
-                  width={16}
-                  height={16}
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                  stroke="currentColor"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
+                <a
+                  href="https://www.facebook.com/people/DINAS-KESEHATAN-KABUPATEN-GARUT/100066493972433/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="cursor-pointer hover:text-blue-200"
+                    width={16}
+                    height={16}
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                  </svg>
+                </a>
               </div>
               <div className="flex items-center gap-x-1.5">
                 |
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="cursor-pointer hover:text-blue-200"
-                  width={16}
-                  height={16}
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                  stroke="currentColor"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
+                <a
+                  href="https://www.instagram.com/dinkeskab.garut/?hl=id"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="cursor-pointer hover:text-blue-200"
+                    width={16}
+                    height={16}
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                  </svg>
+                </a>
               </div>
               <div className="flex items-center gap-x-1.5">
                 |
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="cursor-pointer hover:text-blue-200"
-                  width={16}
-                  height={16}
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                  stroke="currentColor"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
+                <a
+                  href="https://www.instagram.com/dinkeskab.garut/?hl=id"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <rect x={4} y={4} width={16} height={16} rx={4} />
-                  <circle cx={12} cy={12} r={3} />
-                  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="cursor-pointer hover:text-blue-200"
+                    width={16}
+                    height={16}
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <rect x={4} y={4} width={16} height={16} rx={4} />
+                    <circle cx={12} cy={12} r={3} />
+                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                  </svg>
+                </a>
               </div>
               <div className="flex items-center gap-x-1.5">
                 |
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="cursor-pointer hover:text-blue-200"
-                  width={16}
-                  height={16}
-                  viewBox="0 0 24 24"
-                  strokeWidth={2}
-                  stroke="currentColor"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
+                <a
+                  href="https://www.youtube.com/channel/UC5P52rAJ3T3if0APih7uegA"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <rect x={3} y={5} width={18} height={14} rx={4} />
-                  <path d="M10 9l5 3l-5 3z" />
-                </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="cursor-pointer hover:text-blue-200"
+                    width={16}
+                    height={16}
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <rect x={3} y={5} width={18} height={14} rx={4} />
+                    <path d="M10 9l5 3l-5 3z" />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>

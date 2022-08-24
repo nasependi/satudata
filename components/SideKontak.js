@@ -4,13 +4,13 @@ export default function SideKontak() {
   return (
     <>
       <div className="fixed right-0 z-10 flex h-full items-center justify-end">
-        <div className="grid space-y-2.5">
+        <div className="grid hidden space-y-2.5 lg:block">
           <div className="flex justify-end">
             <a
-              href="wa.me/089639854369"
+              href="https://wa.me/6289639854369"
               rel="noopener noreferrer"
               target="_blank"
-              className="group flex items-center gap-x-2 rounded-tl-lg rounded-bl-lg bg-blue-500 p-3"
+              className="group flex items-center gap-x-2 rounded-tl-lg rounded-bl-lg bg-gradient-to-r from-cyan-500 to-blue-500 p-3"
             >
               <span className="hidden text-white group-hover:inline">
                 Kontak Whatsapp
@@ -37,10 +37,10 @@ export default function SideKontak() {
           </div>
           <div className="flex items-center justify-end">
             <a
-              href="wa.me/0821-1574-4646"
+              href="tel:(0251) 8331753"
               rel="noopener noreferrer"
               target="_blank"
-              className="group flex items-center gap-x-2 rounded-tl-lg rounded-bl-lg bg-blue-500 p-3"
+              className="group flex items-center gap-x-2 rounded-tl-lg rounded-bl-lg bg-gradient-to-r from-cyan-500 to-blue-500 p-3"
             >
               <span className="hidden text-white group-hover:inline">
                 Call Center
@@ -68,10 +68,10 @@ export default function SideKontak() {
           </div>
           <div className="flex justify-end">
             <a
-              href="wa.me/06289630157114"
+              href="https://dinkes.garutkab.go.id"
               rel="noopener noreferrer"
               target="_blank"
-              className="group flex items-center gap-x-2 rounded-tl-lg rounded-bl-lg bg-blue-500 p-3"
+              className="group flex items-center gap-x-2 rounded-tl-lg rounded-bl-lg bg-gradient-to-r from-cyan-500 to-blue-500 p-3"
             >
               <span className="hidden text-white group-hover:inline">
                 Kontak Kami
@@ -98,10 +98,10 @@ export default function SideKontak() {
           </div>
           <div className="flex justify-end">
             <a
-              href="wa.me/06289630157114"
+              href="tel:119"
               rel="noopener noreferrer"
               target="_blank"
-              className="group flex items-center gap-x-2 rounded-tl-lg rounded-bl-lg bg-blue-500 p-3"
+              className="group flex items-center gap-x-2 rounded-tl-lg rounded-bl-lg bg-gradient-to-r from-cyan-500 to-blue-500 p-3"
             >
               <span className="hidden text-white group-hover:inline">
                 Emergency
