@@ -16,6 +16,11 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
             rel="stylesheet"
           />
+          <link
+            rel="icon"
+            href="https://upload.wikimedia.org/wikipedia/commons/d/d4/Lambang_Kabupaten_Garut.svg"
+            sizes="32x32"
+          />
         </Head>
         <body className="min-h-screen bg-white font-inter tracking-tighter text-gray-800 antialiased selection:bg-success-400 selection:text-white dark:bg-slate-700">
           <Main />

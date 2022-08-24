@@ -4,7 +4,7 @@ export default function SideKontak() {
   return (
     <>
       <div className="fixed right-0 z-10 flex h-full items-center justify-end">
-        <div className="grid hidden space-y-2.5 lg:block">
+        <div className="grid hidden space-y-2.5 md:block lg:block">
           <div className="flex justify-end">
             <a
               href="https://wa.me/6289639854369"
