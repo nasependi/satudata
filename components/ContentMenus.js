@@ -45,14 +45,14 @@ export default function ContentMenus({ menus }) {
           </div>
         </section>
         <section className="mt-14 flex justify-center">
-          <div className="grid w-full gap-6 lg:w-[55%] lg:grid-cols-3">
+          <div className="grid w-full gap-6 drop-shadow-md md:w-[50%] md:grid-cols-2 lg:w-[55%] lg:grid-cols-3">
             {menus.map((m, key) => (
               <a
                 href={m.href}
                 target="_blank"
                 rel="noopener noreferrer"
                 key={key}
-                className="w-full space-y-3 rounded-2xl bg-white py-5 shadow"
+                className="w-full space-y-3 rounded-2xl bg-white py-5 shadow-md"
               >
                 <div className="flex justify-center">
                   <img

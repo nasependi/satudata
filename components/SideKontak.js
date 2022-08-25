@@ -37,7 +37,7 @@ export default function SideKontak() {
           </div>
           <div className="flex items-center justify-end">
             <a
-              href="tel:(0251) 8331753"
+              href="tel:0821-1574-4646"
               rel="noopener noreferrer"
               target="_blank"
               className="group flex items-center gap-x-2 rounded-tl-lg rounded-bl-lg bg-gradient-to-r from-cyan-500 to-blue-500 p-3"
