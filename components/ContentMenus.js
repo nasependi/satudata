@@ -45,7 +45,7 @@ export default function ContentMenus({ menus }) {
           </div>
         </section>
         <section className="mt-14 flex justify-center">
-          <div className="grid w-full gap-6 drop-shadow-md md:w-[50%] md:grid-cols-2 lg:w-[55%] lg:grid-cols-3">
+          <div className="grid w-full gap-6 drop-shadow-md md:w-[50%] md:grid-cols-2 lg:w-[48%] lg:grid-cols-3">
             {menus.map((m, key) => (
               <a
                 href={m.href}
@@ -57,11 +57,11 @@ export default function ContentMenus({ menus }) {
                 <div className="flex justify-center">
                   <img
                     src={m.img}
-                    className="mt-3 h-14 w-14 transition duration-700 hover:-translate-y-2"
+                    className="mt-3 h-12 w-12 transition duration-700 hover:-translate-y-2"
                     alt=""
                   />
                 </div>
-                <div className="mx-auto block text-center text-sm font-bold text-slate-600">
+                <div className="mx-auto block text-center text-xs font-bold text-slate-600">
                   {m.title}
                 </div>
               </a>

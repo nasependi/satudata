@@ -1,5 +1,5 @@
 import React from "react";
-import Back from "../public/assets/img/20220818_160612.jpg";
+import Back from "../public/assets/img/20220908_101838.jpg";
 import SideKontak from "../components/SideKontak";
 import NavMini from "../components/NavMini";
 import ContentMenus from "../components/ContentMenus";
